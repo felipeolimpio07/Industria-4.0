@@ -29,8 +29,8 @@ $mensagemAlerta = $input['mensagem'] ?? 'Alerta crítico desconhecido!';
  * INTEGRAÇÃO COM A Z-API
  * ========================================================= */
 
-$apiUrl = "https://api.z-api.io/instances/3F49717D954D0137EDB962ED0328D6D7/token/C9F617AE90FF417B92BAF676/send-text"; 
-$numeroDestino = "5541985175707"; 
+$apiUrl = "Cole aqui sua chave API "; 
+$numeroDestino = "Coloque aqui seu numero de Telefone "; 
 
 $payload = json_encode([
     "phone" => $numeroDestino,
